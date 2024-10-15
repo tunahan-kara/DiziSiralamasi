@@ -30,17 +30,10 @@ public class Main {
                 dizi[i] = dizi[i+1];
                 dizi[i+1] = temp;
                 i = -1;
-            }
+        }
         }
         // dizinin duzenlenmis hali :
         System.out.print("Dizinin Düzenlenmiş Hali :");
         for (int i  = 0 ;i<dizi.length;i++ ) {
             System.out.print(dizi[i] + ",");
-        }
-
-
-
-
-        }
-
-    }
+        }}}
